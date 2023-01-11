@@ -1,0 +1,97 @@
+@media screen and (max-width:980px) {
+        .logo-area{
+            width: 40%;
+            float: left;
+            }
+            .logo-area img{
+                width: 100px;
+            }
+            .manu-area{
+                width: 100%;
+                float: left;
+                margin-top: -55px;
+                }
+                .left-area{
+                    float: left;
+                    width: 45%;
+                    text-align: center;
+                    margin-top: -50px;
+                   }
+            
+                }
+                @media screen and (max-width:780px) {
+                    .left-area{
+                        float: left;
+                        width: 45%;
+                        text-align: center;
+                        margin-top: -100px;
+                       }
+                }
+@media screen and (max-width:768px) {
+    .left-area{
+        float: left;
+        width: 45%;
+        text-align: center;
+        margin-top: -100px;
+       }
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .logo-area{
+        width: 70%;
+        float: none;
+       
+        }
+        .manu-area{
+            width: 30%;
+            float: none;
+           
+            } 
+            .manu-area ul{
+                list-style: none;
+                float: right;
+                margin-top: 50px;
+                text-align: center;
+
+            }  
+            .manu-area ul li{
+                display: inline-block;
+                margin-top: 10px;
+               
+             }
+             .manu-area ul li a{
+                text-decoration: none;
+                text-transform:capitalize;
+                padding: 15px;
+                color: blue;
+                
+              }
+              .servic h2{
+                text-align:center;
+                color: red;
+                font-weight:bold;
+                text-transform: capitalize;
+               }
+               .product{
+                flex-direction: column;
+                display: flex;
+               margin-top: 20px;
+               gap: 20px;
+                }
+                .left-area{
+                    text-align: center;
+                    float: none;
+                    width: 100%;
+                    padding-top: 50px;
+                   }
+                 
+                   .right-area{
+                    margin-top: 50px;
+                    float: none;
+                    width: 60%;
+                    }
+}
